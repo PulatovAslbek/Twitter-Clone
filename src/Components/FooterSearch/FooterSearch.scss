@@ -1,0 +1,21 @@
+.search {
+	display: block;
+	width: 100%;
+	max-width: 373px;
+	height: 55px;
+	margin: 0;
+	margin-bottom: 11px;
+	padding: 5px;
+	padding-left: 40px;
+	border-radius: 31px;
+	border: none;
+	background: #eff3f4;
+}
+
+.search--bg-img {
+	background-image: url('../../Assets/image/search.svg');
+	background-repeat: no-repeat;
+	background-position: 15px 18px;
+	background-size: 20px;
+}
+

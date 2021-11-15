@@ -1,0 +1,40 @@
+.profilemain .container {
+	display: flex;
+   align-items: center;
+	width: 100%;
+	max-width: 900px;
+   padding: 10px 0;
+}
+
+.profile__box {
+	display: block;
+	margin: 0;
+   margin-left: 40px;
+}
+
+.profile__heading {
+	margin: 0;
+	margin-bottom: 2px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 27px;
+	color: #000000;
+}
+
+.tweets {
+	display: block;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 21px;
+	color: #000000;
+	opacity: 0.6;
+}
+
+.btn__back{
+   display: block;
+   margin-left: 30px;
+   border: none;
+   background-color: transparent;
+}

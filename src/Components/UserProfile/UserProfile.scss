@@ -1,0 +1,29 @@
+.UserProfile {
+	position: relative;
+}
+
+.profile-img {
+	position: absolute;
+	top: -82px;
+	left: 30px;
+}
+
+.edit__box{
+   display: block;
+   margin: 0;
+   margin-right: 20px;
+	margin-left: auto;
+}
+
+.profile__btn {
+	display: block;
+   padding: 10px;
+   background-color: transparent;
+   border: solid 2px #D8D8D8;
+   border-radius: 120px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+}

@@ -1,0 +1,60 @@
+.profile-posts .container{
+   display: block;
+}
+
+.profile-posts__list {
+	display: flex;
+	width: 800px;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+	border-bottom: solid 1px #c4c4c4;
+	list-style-type: none;
+}
+
+.profile-posts__item {
+	padding: 15px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.profile-posts__item--active {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+   border-bottom: solid 5px #1DA1F2;
+   border-radius: 4px;
+}
+
+.post__one--img {
+	padding-left: 80px;
+	border-bottom: solid 1px #d8d8d8;
+	background-image: url('../../Assets/image/Ellipse\ 3.png');
+	background-repeat: no-repeat;
+	background-position: 10px 5px;
+   background-size: 60px 60px;
+}
+
+.post__two--img{
+   padding-left: 80px;
+	border-bottom: solid 1px #d8d8d8;
+	background-image: url('../../Assets/image/Ellipse\ 3.png');
+	background-repeat: no-repeat;
+	background-position: 10px 5px;
+   background-size: 60px 60px;
+}
+
+.post__three--img{
+   padding-left: 80px;
+	border-bottom: solid 1px #d8d8d8;
+	background-image: url('../../Assets/image/Ellipse\ 3.png');
+	background-repeat: no-repeat;
+	background-position: 10px 5px;
+   background-size: 60px 60px;
+}
+

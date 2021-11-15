@@ -1,0 +1,49 @@
+.main .container {
+	display: inline-block;
+	width: 100%;
+	max-width: 900px;
+	margin: 0;
+	padding: 10px 0;	
+}
+
+.span {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: solid 1px #d8d8d8;
+}
+
+.heading {
+	display: block;
+	margin: 0;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	padding: 0;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+	color: #000000;
+	text-align: start;
+}
+
+.lang__select{
+	width: 40px;
+	height: 20px;
+	margin-right: 15px;
+	margin-left: auto;
+	border: none;
+	background-color: transparent;
+}
+
+.theme__btn{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin-right: 12px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	background-color: transparent;
+}
+
+

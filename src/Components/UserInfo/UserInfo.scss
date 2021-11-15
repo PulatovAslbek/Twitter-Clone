@@ -1,0 +1,144 @@
+.user-info .container {
+	display: block;
+	padding: 20px;
+}
+
+.user-info__box {
+	margin: 0;
+	margin-left: 5px;
+	margin-bottom: 15px;
+}
+
+.user-info__name {
+	display: block;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+	color: #000000;
+}
+
+.user-info__email {
+	display: block;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 21px;
+	color: #000000;
+	opacity: 0.6;
+}
+
+.user__job-info {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.link {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #1da1f2;
+}
+
+.user-info__list {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+.user-info__item {
+	position: relative;
+}
+
+.user-info__item + .user-info__item {
+	padding-left: 20px;
+}
+
+.user-info__item:nth-child(1)::before {
+	position: absolute;
+	top: 20px;
+	left: -20px;
+	display: inline;
+	width: 18px;
+	height: 20px;
+	background-image: url('../../Assets/image/location.svg');
+	opacity: 0.6;
+	content: '';
+}
+
+.user-info__item:nth-child(2)::before {
+	position: absolute;
+	top: 20px;
+	left: -2px;
+	display: inline;
+	width: 20px;
+	height: 20px;
+	background-image: url('../../Assets/image/link.svg');
+	opacity: 0.6;
+	content: '';
+}
+
+.user-info__item:nth-child(3)::before {
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	display: inline;
+	width: 18px;
+	height: 20px;
+	background-image: url('../../Assets/image/born.svg');
+	content: '';
+}
+
+.user-info__item:nth-child(4)::before {
+	position: absolute;
+	top: 20px;
+	left: -3px;
+	display: inline;
+	width: 20px;
+	height: 20px;
+	background-image: url('../../Assets/image/date.svg');
+	content: '';
+}
+
+.user-info__item-info {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+	opacity: 0.6;
+}
+
+.user-info__list-follows {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.user-info__item-follows + .user-info__item-follows {
+	margin-left: 30px;
+}
+
+.follow-num {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.user-info__info-follows {
+	display: inline-block;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+	opacity: 0.6;
+}

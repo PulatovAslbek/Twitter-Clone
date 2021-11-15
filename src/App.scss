@@ -1,0 +1,114 @@
+@font-face {
+	font-family: 'Segoe UI';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''), url('./Assets/Fonts/Segoe\ UI.ttf') format('woff2'),
+		url('./Assets/Fonts/Segoe\ UI.ttf') format('woff');
+}
+
+@font-face {
+	font-family: 'Segoe UI';
+	font-style: normal;
+	font-weight: 700;
+	src: local(''), url('./Assets/Fonts/Segoe\ UI\ Bold.ttf') format('woff2'),
+		url('./Assets/Fonts/Segoe\ UI\ Bold.ttf') format('woff');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+		url('./Assets/Fonts/roboto-v29-latin-regular.woff2') format('woff2'),
+		url('./Assets/Fonts/roboto-v29-latin-regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 900;
+	src: local(''),
+		url('./Assets/Fonts/roboto-v29-latin-900.woff2') format('woff2'),
+		url('./Assets/Fonts/roboto-v29-latin-900.woff') format('woff');
+}
+
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	scroll-behavior: smooth;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+body {
+	height: 100%;
+	font-family: 'Segoe UI', 'sans-serif';
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+#root {
+	width: 1500px;
+	height: 100%;
+	display: flex;
+	margin: 0 auto;
+	// justify-content: flex-start;
+	// padding: 20px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+	max-width: 1340px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.dark {
+	background-color: rgba(5, 5, 5, 0.7);
+	color: #fff;
+}
+
+.dark h1 {
+	color: #fff;
+}
+
+.dark .servise {
+	background-color: #999;
+}
+
+.dark .users {
+	background-color: #999;
+}
+
+.dark .text {
+	background-color: #555;
+}
+
+.dark .setting-more {
+	color: blue;
+}

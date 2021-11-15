@@ -1,0 +1,59 @@
+.post__three {
+	padding-left: 80px;
+	border-bottom: solid 1px #d8d8d8;
+	background-image: url('../../Assets/image/posterthree.png');
+	background-repeat: no-repeat;
+	background-position: 10px 5px;
+	
+}
+
+.post__three-box {
+	display: flex; 
+	width: 100%;
+	margin: 0;
+	margin-top: 20px;
+}
+
+.poster__name {
+	display: inline-block;
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+.poster__email {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 21px;
+	color: #000000;
+	opacity: 0.6;
+}
+
+.point {
+	font-size: 28px;
+	margin-left: auto;
+}
+
+.post__info {
+	margin: 0;
+   margin-bottom: 25px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.post__img{
+   margin: 0;
+   margin-bottom: 25px;
+}
+
+.post__box-btns{
+   display: flex;
+   justify-content: flex-start;
+   margin: 0;
+   margin-bottom: 25px;
+}
+
+

@@ -1,0 +1,53 @@
+.servise {
+   width: 350px;
+	background-color: #f7f9f9;
+	padding: 20px 15px;
+	margin-bottom: 40px;
+}
+
+.setting {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.heading__setting {
+	margin: 0;
+}
+
+.setting-__btn {
+	border: none;
+	background: transparent;
+}
+
+.setting__list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.setting__item {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.setting__item-box span {
+	display: block;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 21px;
+	color: #393b41;
+	opacity: 0.6;
+}
+
+.setting-more {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 100%;
+	color: #1da1f2;
+}
