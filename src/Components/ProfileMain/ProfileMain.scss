@@ -1,15 +1,24 @@
-.profilemain .container {
+.profilemain {
+	margin-left: 290px;
+}
+
+.container {
 	display: flex;
-   align-items: center;
+	align-items: center;
 	width: 100%;
 	max-width: 900px;
-   padding: 10px 0;
+	padding: 10px 0;
+}
+
+.box1{
+	display: flex;
+	padding: 10px;
 }
 
 .profile__box {
 	display: block;
 	margin: 0;
-   margin-left: 40px;
+	margin-left: 40px;
 }
 
 .profile__heading {
@@ -32,9 +41,9 @@
 	opacity: 0.6;
 }
 
-.btn__back{
-   display: block;
-   margin-left: 30px;
-   border: none;
-   background-color: transparent;
+.btn__back {
+	display: block;
+	margin-left: 30px;
+	border: none;
+	background-color: transparent;
 }

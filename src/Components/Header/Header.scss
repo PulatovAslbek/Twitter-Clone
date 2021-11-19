@@ -1,4 +1,18 @@
-.header .container {
+.header {
+	width: 300px;
+	max-width: 100%;
+	position: fixed;
+	height: 100vh;
+	overflow: auto;
+	&::-webkit-scrollbar {
+		background-color:transparent
+	}
+
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
 	display: inline-block;
 	width: 100%;
 	max-width: 300px;

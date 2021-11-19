@@ -12,8 +12,7 @@ function ProfileMain({ lang }) {
 	return (
 		<>
 			<main className='profilemain'>
-				<section>
-					<div className='container'>
+				<section className="box1">
 						<button  className='btn__back'>
 							<NavLink className="nav__Link" to="/"></NavLink>
 							<img
@@ -29,7 +28,7 @@ function ProfileMain({ lang }) {
 							<h1 className='profile__heading'>Bobur</h1>
 							<span className='tweets'>1,070 {content[lang].main.profile.Tweets}</span>
 						</div>
-					</div>
+
 				</section>
 
 				<ProfileHero />
